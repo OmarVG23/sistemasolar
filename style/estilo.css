@@ -1,0 +1,142 @@
+* {
+    margin: 5px;
+    padding: 1px;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1047161227/thumb/12.jpg?ip=x480);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    background: url(https://png.pngtree.com/background/20210717/original/pngtree-flat-hand-drawn-black-and-white-cosmic-line-draft-astronaut-background-picture-image_1445343.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: solid;
+    text-shadow: 2px 1px 1px;
+    width: 100%;
+}
+
+.cajadeImagen {
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    width: auto;
+    height: 80px;
+    padding: 8px;
+}
+
+.cajadetitulo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 248, 6);
+
+}
+
+nav {
+    background-color: #f8e006;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    padding: 5px;
+    width: 150px;
+    text-shadow: 1px 1px 1px
+}
+
+nav li:hover {
+    background-color: rgb(219, 37, 37);
+}
+
+main {
+    color: white;
+
+}
+
+h2 {
+
+    text-decoration: underline;
+    font-weight: bold;
+    /*negrita*/
+    /*primero se coloca sombra horizonra- vertical -tamaño -color*/
+    /* text-shadow:2px 1px 1px yellow ; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    /* sobre la lines*/
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 15px;
+    ;
+}
+
+/* ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+li {float: left;}
+li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+li a:hover {background-color: #111;}
+footer{
+    background-color: brown;
+} */
+img {
+    /* border-radius: 70px;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px; */
+
+    /*Responsive de una imagen*/
+    /* max-width: 100%;
+    height: auto;
+    cetrar una imagen */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* efecto transparente */
+    /* opacity: .7; */
+    /* filtros */
+    /* filter:grayscale(50%); */
+    padding: 11px;
+    border-radius: 40px;
+
+
+}
+
+footer {
+    background-color: rgb(249, 253, 6);
+    color: rgb(248, 14, 6);
+    text-decoration: double;
+    text-shadow: 1px 1px 1px;
+    font-size: 20px;
+}
